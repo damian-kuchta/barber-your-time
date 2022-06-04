@@ -4,9 +4,9 @@ const HeaderInfo = (props) => {
   return (
     <div className={classes["header-info"]}>
       <article>
-        <p>#Loftowe wnętrze</p>
-        <p>#Dobre whisky</p>
-        <p>#Najlepsi barberzy</p>
+        <p>#loftowe wnętrze</p>
+        <p>#dobre whisky</p>
+        <p>#najlepsi barberzy</p>
       </article>
     </div>
   );

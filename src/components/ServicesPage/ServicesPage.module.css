@@ -2,12 +2,13 @@
   min-height: 100vh;
   background-image: url("../../assets/prices-bg.jpg");
   background-size: cover;
+  border-bottom: 5px solid #9b8808;
 }
 
 .price-list-wrapper {
   padding: 15px 40px;
   margin: 0 auto;
-  max-width: 800px;
+  width: 800px;
   border: 2px solid #9b8808;
   background-color: rgba(0, 0, 0, 0.568);
 }

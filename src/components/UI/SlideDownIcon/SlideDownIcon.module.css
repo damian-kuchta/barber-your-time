@@ -8,6 +8,9 @@
     cursor: pointer;
   }
   
+  .removeMargin {
+    margin: 0 auto;
+  }
   @keyframes arrowMove {
     from {transform: translateY(0);}
     to {transform: translateY(-5px);}

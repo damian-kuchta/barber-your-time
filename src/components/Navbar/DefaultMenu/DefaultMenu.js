@@ -7,13 +7,13 @@ const DefaultMenu = (props) => {
         <a href="#services">Usługi</a>
       </li>
       <li>
-        <a href="#">Zdjęcia</a>
+        <a href="#gallery">Zdjęcia</a>
       </li>
       <li>
-        <a href="#">Nasze Salony</a>
+        <a href="#contact">Nasze Salony</a>
       </li>
       <li>
-        <a href="#">Dojazd</a>
+        <a href="#location">Dojazd</a>
       </li>
     </ul>
   );

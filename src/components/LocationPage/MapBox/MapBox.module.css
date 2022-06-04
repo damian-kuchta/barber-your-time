@@ -1,0 +1,24 @@
+.map-box {
+    flex-basis: 48%;
+}
+
+.location {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.map-wrap {
+    border: 5px solid #9b8808;
+
+}
+
+.location-icon {
+    font-size: 35px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+iframe {
+    display: block;
+}

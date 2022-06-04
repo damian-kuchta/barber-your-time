@@ -1,0 +1,39 @@
+.gallery-wrap {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 75vh;
+}
+
+.gallery-wrap div {
+    background-color: rgba(255, 255, 255, 0.123);
+    border: 2px solid #9b8808;
+    flex-basis: 22%;
+    margin-bottom: 15px;
+    height: 250px;
+    max-width: 300px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .4;
+    overflow: hidden;
+
+}
+
+.gallery-wrap img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.gallery-wrap div:hover {
+    transform: scale(1.05);
+}
+
+@media(max-width: 1000px) {
+    .gallery-wrap div {
+        flex-basis: 30%;
+        height: 200px;
+    }
+}

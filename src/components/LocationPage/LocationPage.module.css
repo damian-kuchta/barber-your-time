@@ -2,4 +2,13 @@
     min-height: 100vh;
     background-image: url('../../assets/maps-bg.jpg');
     background-size: cover;
+    border-bottom: 5px solid #9b8808;
+}
+
+.maps-box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    max-width: 70vw;
 }

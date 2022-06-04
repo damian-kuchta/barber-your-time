@@ -1,14 +1,10 @@
 .container {
   margin: 0 auto;
+  padding: 30px 0;
   max-width: 1400px;
   min-height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-}
-.borders {
-  border-top: 2px solid #9b8808;
-  /* 
-   */
+  justify-content: space-around;
 }
