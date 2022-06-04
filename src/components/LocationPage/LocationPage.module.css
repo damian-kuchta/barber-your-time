@@ -1,0 +1,5 @@
+.services {
+    min-height: 100vh;
+    background-image: url('../../assets/maps-bg.jpg');
+    background-size: cover;
+}

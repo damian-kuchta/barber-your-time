@@ -1,0 +1,14 @@
+.icon {
+    display: block;
+    margin: 30px auto 0;
+    animation-name: arrowMove;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+  }
+  
+  @keyframes arrowMove {
+    from {transform: translateY(0);}
+    to {transform: translateY(-5px);}
+  }

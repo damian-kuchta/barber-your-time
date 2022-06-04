@@ -1,0 +1,15 @@
+.header-info {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header-info article {
+
+}
+
+.header-info p {
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+}

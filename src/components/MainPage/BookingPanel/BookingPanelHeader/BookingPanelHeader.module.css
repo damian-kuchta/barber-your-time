@@ -1,0 +1,19 @@
+.header {
+    font-size: 45px;
+    line-height: 1;
+    font-weight: normal;
+}
+
+.icon {
+    display: block;
+    margin: 20px auto;
+    animation-name: arrowMove;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes arrowMove {
+    from {transform: translateY(0);}
+    to {transform: translateY(-15px);}
+}
