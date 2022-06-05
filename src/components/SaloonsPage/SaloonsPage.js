@@ -21,8 +21,7 @@ const Services = (props) => {
           />
         </div>
         <div>
-          <p className={classes["location-text"]}>Dojazd</p>
-          <SlideDownIcon removeMargin />
+          <SlideDownIcon />
         </div>
       </Container>
     </section>

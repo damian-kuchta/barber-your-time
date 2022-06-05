@@ -1,5 +1,6 @@
 .main-page {
-    min-height: 100vh;
+    height: 100vh;
+    /* max-height: 100vh; */
     background-image: url('../../assets/main-page-bg.jpg');
     background-size: cover;
     border-bottom: 3px solid #9b8808;

@@ -7,7 +7,7 @@ import MapBox from "./MapBox/MapBox";
 const LocationPage = (props) => {
   return (
     <section id={props.id} className={classes.services}>
-      <Container>
+      <Container extClasses>
         <Header title="Tu nas znajdziesz" />
         <div className={classes['maps-box']}>
           <MapBox location="Białołęka">

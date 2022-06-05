@@ -4,7 +4,6 @@
   width: 100vw;
   height: calc(100vh - 65px);
   background-color: rgba(0, 0, 0, 0.884);
-  position: absolute;
   z-index: 99;
   bottom: -3px;
   right: 0;

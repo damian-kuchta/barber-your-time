@@ -1,6 +1,7 @@
 .panel-text-box {
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
     font-size: 25px;
     font-style: italic;
+    line-height: 1;
 }

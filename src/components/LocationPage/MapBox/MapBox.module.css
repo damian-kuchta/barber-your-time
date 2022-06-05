@@ -1,9 +1,9 @@
 .map-box {
-    flex-basis: 48%;
+    flex-basis: 45%;
 }
 
 .location {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     text-transform: uppercase;
 }
