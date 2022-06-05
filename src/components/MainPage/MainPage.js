@@ -4,9 +4,19 @@ import Header from "./Header/Header";
 import HeaderInfo from "./HeaderInfo/HeaderInfo";
 import BookingPanel from "./BookingPanel/BookingPanel";
 import { Navbar } from "responsive-navbar-react";
+import { useEffect } from "react";
 import "./index.css";
 
 const MainPage = () => {
+  useEffect(() => {
+    const bar = document.querySelector("svg");
+    bar.addEventListener("click", () => {
+      console.log("dziala");
+
+      document.querySelector("._4sag1").classList.add("active");
+    });
+  }, []);
+
   const props = {
     items: [
       {
@@ -31,14 +41,14 @@ const MainPage = () => {
     },
     style: {
       linkStyles: {
-          textAlign: 'center',
-          fontFamily: 'Ezar',
-          fontSize: '25px',
-          color: '#fff',
+        textAlign: "center",
+        fontFamily: "Ezar",
+        fontSize: "25px",
+        color: "#fff",
       },
       barStyles: {
         // maxWidth: '1400px',
-        margin: '0 auto',
+        margin: "0 auto",
         background: "#000",
       },
       sidebarStyles: {
