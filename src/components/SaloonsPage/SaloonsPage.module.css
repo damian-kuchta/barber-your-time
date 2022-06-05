@@ -8,10 +8,18 @@
 .saloons {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .location-text {
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
+}
+
+@media(max-width:850px) {
+   .saloons {
+       justify-content: space-between;
+       flex-direction: column;
+   }
 }

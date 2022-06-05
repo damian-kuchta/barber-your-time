@@ -13,3 +13,9 @@
     color: #fff;
     letter-spacing: 2px;
 }
+
+@media(max-width: 900px) {
+    .header-info p {
+        font-size: 20px;
+    }
+  }

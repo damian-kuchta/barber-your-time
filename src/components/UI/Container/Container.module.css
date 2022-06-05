@@ -1,13 +1,14 @@
 .container {
   margin: 0 auto;
   padding: 50px 0;
+  padding-bottom: 0;
   max-width: 1400px;
-  height: 100vh;
-  max-height: 100vh;
+  min-height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 
 .extClasses {
@@ -16,4 +17,14 @@
 
 .flexStart {
   justify-content: flex-start;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+@media(max-width:750px) {
+  .container {
+    justify-content: flex-start;
+  }
 }

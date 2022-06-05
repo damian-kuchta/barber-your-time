@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-height: 75vh;
+    max-height: auto;
 }
 
 .gallery-wrap div {
@@ -34,6 +34,27 @@
 @media(max-width: 1000px) {
     .gallery-wrap div {
         flex-basis: 30%;
+        height: 200px;
+    }
+}
+
+@media(max-width: 750px) {
+    .gallery-wrap div {
+        flex-basis: 45%;
+        height: 200px;
+    }
+}
+
+@media(max-width: 600px) {
+    .gallery-wrap div {
+        flex-basis: 45%;
+        height: 170px;
+    }
+}
+
+@media(max-width: 600px) {
+    .gallery-wrap div {
+        flex-basis: 90%;
         height: 200px;
     }
 }

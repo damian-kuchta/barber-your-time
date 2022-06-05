@@ -63,3 +63,27 @@
 .box-inner::after {
   right: -2px;
 }
+
+@media (max-width: 950px) {
+  .box {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 70vw;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 800px) {
+  .box {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .box {
+
+    max-width: 90vw;
+
+  }
+}

@@ -8,5 +8,10 @@
 .maps-box {
     display: flex;
     justify-content: space-around;
-
 }
+
+@media (max-width: 1010px) {
+  .maps-box {
+      flex-direction: column;
+  }
+  }

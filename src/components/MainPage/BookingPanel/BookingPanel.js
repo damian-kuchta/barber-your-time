@@ -8,7 +8,7 @@ const BookingPanel = (props) => {
     <div className={classes.box}>
       <div className={classes["box-inner"]}>
         <BookingPanelHeader />
-        <Button text="Zarezerwuj wizytę!" />
+        <Button href='#contact' text="Zarezerwuj wizytę!" />
         <BookingPanelText />
       </div>
     </div>

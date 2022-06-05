@@ -31,7 +31,7 @@ const SingleSaloon = (props) => {
           <p className={classes["address-text"]}>{props.address}</p>
         </div>
     
-        <Button text='Rezerwuj'/>
+        <Button href={props.href} text='Rezerwuj'/>
       </div> 
     </div>
   );

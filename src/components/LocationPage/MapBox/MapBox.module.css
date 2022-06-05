@@ -1,24 +1,42 @@
 .map-box {
-    flex-basis: 45%;
+  flex-basis: 45%;
 }
 
 .location {
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .map-wrap {
-    border: 5px solid #9b8808;
-
+  border: 5px solid #9b8808;
 }
 
 .location-icon {
-    font-size: 35px;
-    display: block;
-    margin: 0 auto 15px;
+  font-size: 35px;
+  display: block;
+  margin: 0 auto 15px;
 }
 
 iframe {
-    display: block;
+  display: block;
+}
+
+@media (max-width: 1050px) {
+  .location {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .map-box {
+    margin: 20px auto;
+    width: 70vw;
+  }
+}
+
+@media (max-width: 1010px) {
+  .map-box {
+    width: 90vw;
+  }
 }
