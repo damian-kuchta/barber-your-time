@@ -1,23 +1,46 @@
-import { photos } from "../Photos/photos";
 import classes from "./GalleryContainer.module.css";
-
-const images = [
-  "https://i.postimg.cc/DmVDcTfH/272977001-127401306453808-8779114916451251368-n.jpg",
-
-];
-
+import LightBox from "../LightBox/LightBox";
+import { useState } from "react";
+import img from "../../../assets/maps-bg.jpg";
+import { images } from "../../../assets/gallery-photos/galleryPhotos";
 const GalleryContainer = () => {
+  const [imageToShow, setImage] = useState(null);
+
+  const showImageHandler = (e) => {
+    console.log(e.target.src);
+    setImage(e.target.src);
+  };
 
   return (
-    <div className={classes["gallery-wrap"]}>
-      <div><img src={photos[0].src}></img></div>
-      <div><img src={photos[1].src}></img></div>
-      <div><img src={photos[0].src}></img></div>
-      <div><img src={photos[1].src}></img></div>
-      <div><img src={photos[0].src}></img></div>
-      <div><img src={photos[1].src}></img></div>
-      <div><img src={photos[0].src}></img></div>
-      <div><img src={photos[1].src}></img></div>
+    <div>
+      <LightBox src={imageToShow}>
+        <div className={classes["gallery-wrap"]}>
+          <div>
+            <img onClick={(e) => showImageHandler(e)} src={images[0]}></img>
+          </div>
+          <div>
+            <img onClick={(e) => showImageHandler(e)} src={images[1]}></img>
+          </div>
+          <div>
+            <img onClick={(e) => showImageHandler(e)} src={images[2]}></img>
+          </div>
+          <div>
+            <img onClick={(e) => showImageHandler(e)} src={images[3]}></img>
+          </div>
+          <div>
+            <img onClick={(e) => showImageHandler(e)} src={images[4]}></img>
+          </div>
+          <div>
+            <img onClick={(e) => showImageHandler(e)} src={images[5]}></img>
+          </div>
+          <div>
+            <img onClick={(e) => showImageHandler(e)} src={images[6]}></img>
+          </div>
+          <div>
+            <img onClick={(e) => showImageHandler(e)} src={images[7]}></img>
+          </div>
+        </div>
+      </LightBox>
     </div>
   );
 };
