@@ -3,15 +3,17 @@ import React, { useState } from 'react';
 const LightBox = ({ children, src, alt, Wrapper = 'div', zIndex = 100 }) => {
 	const [isOpen, setIsOpen] = useState(false);
 
-	const toggleIsOpen = () => {
+	const toggleIsOpen = (e) => {
+		console.log(e.target.tagName)
 		setIsOpen(!isOpen);
 	};
+	
 
 	return (
 		<Wrapper onClick={toggleIsOpen}>
 			{children}
 			{isOpen ?
-				<div onClick={toggleIsOpen} style={{
+				<div style={{
 					position: 'fixed',
 					display: 'flex',
 					justifyContent: 'center',
@@ -22,9 +24,11 @@ const LightBox = ({ children, src, alt, Wrapper = 'div', zIndex = 100 }) => {
 					width: '100vw',
 					backgroundColor: 'rgba(0,0,0,0.7)',
 					cursor: 'pointer',
-					zIndex
+					zIndex: '99'
 				}}>
-					<img src={src}
+					<img 
+					onClick={toggleIsOpen}
+					src={src}
 						alt={alt}
 						style={{
 							display:'block',
