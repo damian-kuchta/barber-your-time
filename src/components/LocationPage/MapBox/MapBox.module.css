@@ -35,8 +35,9 @@ iframe {
   }
 }
 
-@media (max-width: 1010px) {
+@media (max-width: 580px) {
   .map-box {
-    width: 90vw;
+    margin: 20px auto;
+    width: 80vw;
   }
 }

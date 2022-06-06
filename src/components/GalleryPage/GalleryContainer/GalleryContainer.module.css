@@ -57,4 +57,9 @@
         flex-basis: 90%;
         height: 200px;
     }
+    .gallery-wrap div {
+        flex-basis: 90%;
+        height: 200px;
+    }
 }
+

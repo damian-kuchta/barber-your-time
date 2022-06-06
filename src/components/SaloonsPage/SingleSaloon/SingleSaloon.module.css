@@ -60,3 +60,10 @@
         font-size: 18px;
       }
  }
+ 
+@media(max-width:450px) {
+  .saloon-info-wrap {
+      width: 85vw;
+  }
+ 
+}

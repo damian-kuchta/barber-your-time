@@ -27,12 +27,12 @@ const Services = (props) => {
           <PriceList
             title="Combo"
             prices={[
-              ["Combo - strzyżenie włosów + trymowanie brody", "110 zł"],
-              ["Combo Królewskie - brzytwa + gorące ręczniki", "130 zł"],
+              ["Combo  (włosy + broda)", "110 zł"],
+              ["Combo Królewskie (brzytwa + ręczniki)", "130 zł"],
             ]}
           />
         </div>
-        <SlideDownIcon/>
+        <SlideDownIcon href='#gallery' />
       </Container>
     </section>
   );

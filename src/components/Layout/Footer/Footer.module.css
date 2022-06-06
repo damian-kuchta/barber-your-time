@@ -36,3 +36,8 @@
     cursor: pointer;
 }
 
+@media(max-width: 680px) {
+    .footer-text {
+        display: none;
+    }
+}

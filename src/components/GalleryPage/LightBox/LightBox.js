@@ -29,7 +29,8 @@ const LightBox = ({ children, src, alt, Wrapper = 'div', zIndex = 100 }) => {
 						style={{
 							display:'block',
 							maxHeight: '80vh',
-							width: 'auto',
+							maxWidth: '90vw',
+						
 						}}
 					/>
 				</div>

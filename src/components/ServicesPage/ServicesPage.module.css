@@ -46,9 +46,22 @@
 
 @media(max-width: 575px) {
   .price-list-wrapper {
-    padding: 10px 8px;
-    max-width: 90vw;
     margin-bottom: 30px;
   }
 }
+
+
+@media(max-width: 540px) {
+  .price-list-wrapper {
+    max-width: 85vw;
+  }
+}
+
+@media(max-width: 540px) {
+  .price-list-wrapper {
+    padding: 10px;
+  }
+}
+
+
 

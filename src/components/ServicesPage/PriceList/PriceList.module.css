@@ -33,9 +33,15 @@ span:nth-child(2) {
   .prices-title {
     font-size: 28px;
   }
+}
+
+@media(max-width: 640px) {
+  .prices-title {
+    font-size: 28px;
+  }
 
   .prices-list li {
-    font-size: 17px;
+    font-size: 18px;
   }
 }
 
@@ -43,18 +49,25 @@ span:nth-child(2) {
   .prices-title {
     font-size: 28px;
   }
+}
+
+@media(max-width: 485px) {
+
+  .prices-list li {
+    font-size: 17px;
+  }
+}
+
+@media(max-width: 440px) {
 
   .prices-list li {
     font-size: 15px;
   }
 }
 
-@media(max-width: 436px) {
-  .prices-title {
-    font-size: 24px;
-  }
+@media(max-width: 394px) {
 
   .prices-list li {
-    font-size: 13px;
+    font-size: 14px;
   }
 }

@@ -23,7 +23,7 @@ const Services = (props) => {
           />
         </div>
         <div>
-          <SlideDownIcon />
+          <SlideDownIcon href='#location'  />
         </div>
       </Container>
     </section>

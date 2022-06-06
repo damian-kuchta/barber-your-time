@@ -9,7 +9,7 @@ const Services = (props) => {
       <Container borders={true}>
         <Header title="Galeria" />
         <GalleryContainer/>
-        <SlideDownIcon />
+        <SlideDownIcon href='#contact' />
       </Container>
     </section>
   );
