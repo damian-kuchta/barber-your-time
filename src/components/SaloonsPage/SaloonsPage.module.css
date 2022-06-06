@@ -24,3 +24,10 @@
    }
 }
 
+@media(max-width: 730px) {
+    .services {
+      background-image: url("../../assets/saloons-bg-mobile.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+}

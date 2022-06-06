@@ -4,3 +4,12 @@
     background-size: cover;
     border-bottom: 5px solid #9b8808;
 }
+
+@media(max-width: 730px) {
+    .services {
+      background-image: url("../../assets/photos-bg-mobile.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+}
