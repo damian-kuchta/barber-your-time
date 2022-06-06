@@ -60,7 +60,11 @@
         font-size: 18px;
       }
  }
- 
+ @media (max-width: 580px) {
+  .district-name {
+    font-size: 30px;
+  }
+}
 @media(max-width:450px) {
   .saloon-info-wrap {
       width: 85vw;

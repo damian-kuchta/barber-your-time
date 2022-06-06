@@ -40,4 +40,8 @@ iframe {
     margin: 20px auto;
     width: 80vw;
   }
+  .location {
+    font-size: 30px;
+
+  }
 }
