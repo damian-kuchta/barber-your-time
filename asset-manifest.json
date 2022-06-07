@@ -1,34 +1,36 @@
 {
   "files": {
     "main.css": "/barber-your-time/static/css/main.cf952b29.css",
-    "main.js": "/barber-your-time/static/js/main.0e24f986.js",
+    "main.js": "/barber-your-time/static/js/main.490cd3fe.js",
+    "static/media/9.jpg": "/barber-your-time/static/media/9.255caddf22bba9573cfe.jpg",
     "static/media/main-page-bg.jpg": "/barber-your-time/static/media/main-page-bg.224becd8785531ff63b9.jpg",
-    "static/media/3.jpg": "/barber-your-time/static/media/3.c42707ef6750a5f1ddf1.jpg",
     "static/media/maps-bg.jpg": "/barber-your-time/static/media/maps-bg.4540b6a0ba79ea0c7968.jpg",
-    "static/media/7.jpg": "/barber-your-time/static/media/7.1235088bf2a8f18b2043.jpg",
-    "static/media/8.jpg": "/barber-your-time/static/media/8.5b77cd6b9b6afe9d87f8.jpg",
     "static/media/saloons-bg.jpg": "/barber-your-time/static/media/saloons-bg.a8780c7c13441fba5a6a.jpg",
     "static/media/photos-bg.jpg": "/barber-your-time/static/media/photos-bg.e54602f3e4cae1a46f08.jpg",
-    "static/media/6.jpg": "/barber-your-time/static/media/6.628aca3c02d81b076732.jpg",
-    "static/media/4.jpg": "/barber-your-time/static/media/4.373f9db9188bef54afa2.jpg",
-    "static/media/1.jpg": "/barber-your-time/static/media/1.de1a3ae620784cd1063b.jpg",
+    "static/media/6.jpg": "/barber-your-time/static/media/6.860ea39060df6c33319a.jpg",
+    "static/media/3.jpg": "/barber-your-time/static/media/3.41e0c3fdbd904dcc06a7.jpg",
+    "static/media/4.jpg": "/barber-your-time/static/media/4.b4f09dc66eac762d3425.jpg",
+    "static/media/8.jpg": "/barber-your-time/static/media/8.23b894420a88717e9496.jpg",
     "static/media/saloons-bg-mobile.jpg": "/barber-your-time/static/media/saloons-bg-mobile.a8c920c25b34eadc19b4.jpg",
+    "static/media/2.jpg": "/barber-your-time/static/media/2.5d432e8614d4878a5ccd.jpg",
     "static/media/maps-bg-mobile.jpg": "/barber-your-time/static/media/maps-bg-mobile.575c229a00755184c013.jpg",
-    "static/media/5.jpg": "/barber-your-time/static/media/5.f6bc190af2f4a0ff8c72.jpg",
+    "static/media/5.jpg": "/barber-your-time/static/media/5.298604c56a2b28a5cee8.jpg",
+    "static/media/1.jpg": "/barber-your-time/static/media/1.f6171a5058b5b2ae6f44.jpg",
     "static/media/photos-bg-mobile.jpg": "/barber-your-time/static/media/photos-bg-mobile.8c49898026af2b11c149.jpg",
-    "static/media/2.jpg": "/barber-your-time/static/media/2.81fc2a07f788b0c45396.jpg",
+    "static/media/7.jpg": "/barber-your-time/static/media/7.a5ae17c4251038e4f315.jpg",
     "static/media/prices-bg.jpg": "/barber-your-time/static/media/prices-bg.ba8993021a3d0496d831.jpg",
     "static/media/logo-fullname.png": "/barber-your-time/static/media/logo-fullname.19445145fa729492504e.png",
+    "static/media/10.jpg": "/barber-your-time/static/media/10.b19bb2ae115921fd21b7.jpg",
     "static/media/services-bg-mobile.jpg": "/barber-your-time/static/media/services-bg-mobile.e5c6a426f7cc0ef0ff4b.jpg",
     "static/media/booksy-logo.svg": "/barber-your-time/static/media/booksy-logo.4f5b2518d8bb9df9707dc4c422b3df97.svg",
     "static/media/instagram.svg": "/barber-your-time/static/media/instagram.8ea5b1a57f8f7b7201212125eb993b7f.svg",
     "index.html": "/barber-your-time/index.html",
     "static/media/facebook.svg": "/barber-your-time/static/media/facebook.b09f847384e9c9d8ad4662c6e78b00da.svg",
     "main.cf952b29.css.map": "/barber-your-time/static/css/main.cf952b29.css.map",
-    "main.0e24f986.js.map": "/barber-your-time/static/js/main.0e24f986.js.map"
+    "main.490cd3fe.js.map": "/barber-your-time/static/js/main.490cd3fe.js.map"
   },
   "entrypoints": [
     "static/css/main.cf952b29.css",
-    "static/js/main.0e24f986.js"
+    "static/js/main.490cd3fe.js"
   ]
 }
