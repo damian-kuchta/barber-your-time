@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/barber-your-time/static/css/main.cf952b29.css",
-    "main.js": "/barber-your-time/static/js/main.490cd3fe.js",
+    "main.css": "/barber-your-time/static/css/main.1a0f32e5.css",
+    "main.js": "/barber-your-time/static/js/main.825eb224.js",
     "static/media/9.jpg": "/barber-your-time/static/media/9.255caddf22bba9573cfe.jpg",
     "static/media/main-page-bg.jpg": "/barber-your-time/static/media/main-page-bg.224becd8785531ff63b9.jpg",
     "static/media/maps-bg.jpg": "/barber-your-time/static/media/maps-bg.4540b6a0ba79ea0c7968.jpg",
+    "static/media/3.jpg": "/barber-your-time/static/media/3.ca195dc5fe40edc521e7.jpg",
     "static/media/saloons-bg.jpg": "/barber-your-time/static/media/saloons-bg.a8780c7c13441fba5a6a.jpg",
     "static/media/photos-bg.jpg": "/barber-your-time/static/media/photos-bg.e54602f3e4cae1a46f08.jpg",
     "static/media/6.jpg": "/barber-your-time/static/media/6.860ea39060df6c33319a.jpg",
-    "static/media/3.jpg": "/barber-your-time/static/media/3.41e0c3fdbd904dcc06a7.jpg",
     "static/media/4.jpg": "/barber-your-time/static/media/4.b4f09dc66eac762d3425.jpg",
     "static/media/8.jpg": "/barber-your-time/static/media/8.23b894420a88717e9496.jpg",
     "static/media/saloons-bg-mobile.jpg": "/barber-your-time/static/media/saloons-bg-mobile.a8c920c25b34eadc19b4.jpg",
@@ -26,11 +26,11 @@
     "static/media/instagram.svg": "/barber-your-time/static/media/instagram.8ea5b1a57f8f7b7201212125eb993b7f.svg",
     "index.html": "/barber-your-time/index.html",
     "static/media/facebook.svg": "/barber-your-time/static/media/facebook.b09f847384e9c9d8ad4662c6e78b00da.svg",
-    "main.cf952b29.css.map": "/barber-your-time/static/css/main.cf952b29.css.map",
-    "main.490cd3fe.js.map": "/barber-your-time/static/js/main.490cd3fe.js.map"
+    "main.1a0f32e5.css.map": "/barber-your-time/static/css/main.1a0f32e5.css.map",
+    "main.825eb224.js.map": "/barber-your-time/static/js/main.825eb224.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf952b29.css",
-    "static/js/main.490cd3fe.js"
+    "static/css/main.1a0f32e5.css",
+    "static/js/main.825eb224.js"
   ]
 }
