@@ -1,16 +1,36 @@
 .modal {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #000000a4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo-wrap {
+  position: relative;
+}
+.photo-box {
+  max-height: 80vh;
+  max-width: 80vw;
 }
 
-.photo-box {
-    max-height: 80vh;
-    width: 90vw;
+.close-icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+transform: translateY(100%);
+  font-size: 60px;
+  color: #96271f;
+  background-position: center;
+  background-size: 50%;
+}
+
+@media(max-width: 600px) {
+    .close-icon {
+        font-size: 40px;
+    }
 }

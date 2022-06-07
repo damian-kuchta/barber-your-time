@@ -1,13 +1,12 @@
 import classes from "./GalleryContainer.module.css";
 import LightBox from "../LightBox/LightBox";
 import { useState } from "react";
-import img from "../../../assets/maps-bg.jpg";
 import { images } from "../../../assets/gallery-photos/galleryPhotos";
+
 const GalleryContainer = () => {
   const [imageToShow, setImage] = useState(null);
 
   const showImageHandler = (e) => {
-    console.log(e.target.src);
     setImage(e.target.src);
   };
 

@@ -20,7 +20,7 @@ const HeaderInfo = (props) => {
 
         <div className={classes["single-header-info"]}>
           <FontAwesomeIcon className={classes.icon} icon={faCheck} />
-          <p>najlepsi barberzy</p>
+          <p>Najlepsi barberzy</p>
         </div>
       </article>
     </div>
