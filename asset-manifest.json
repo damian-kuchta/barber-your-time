@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/barber-your-time/static/css/main.557ddacb.css",
-    "main.js": "/barber-your-time/static/js/main.0231b24f.js",
+    "main.css": "/barber-your-time/static/css/main.ace6ccd0.css",
+    "main.js": "/barber-your-time/static/js/main.78a88453.js",
     "static/media/9.jpg": "/barber-your-time/static/media/9.255caddf22bba9573cfe.jpg",
-    "static/media/main-page-bg.jpg": "/barber-your-time/static/media/main-page-bg.224becd8785531ff63b9.jpg",
+    "static/media/main-page-bg.jpg": "/barber-your-time/static/media/main-page-bg.706b5be639c14c5fcdd2.jpg",
     "static/media/maps-bg.jpg": "/barber-your-time/static/media/maps-bg.4540b6a0ba79ea0c7968.jpg",
     "static/media/3.jpg": "/barber-your-time/static/media/3.ca195dc5fe40edc521e7.jpg",
     "static/media/saloons-bg.jpg": "/barber-your-time/static/media/saloons-bg.a8780c7c13441fba5a6a.jpg",
@@ -26,11 +26,11 @@
     "static/media/instagram.svg": "/barber-your-time/static/media/instagram.8ea5b1a57f8f7b7201212125eb993b7f.svg",
     "index.html": "/barber-your-time/index.html",
     "static/media/facebook.svg": "/barber-your-time/static/media/facebook.b09f847384e9c9d8ad4662c6e78b00da.svg",
-    "main.557ddacb.css.map": "/barber-your-time/static/css/main.557ddacb.css.map",
-    "main.0231b24f.js.map": "/barber-your-time/static/js/main.0231b24f.js.map"
+    "main.ace6ccd0.css.map": "/barber-your-time/static/css/main.ace6ccd0.css.map",
+    "main.78a88453.js.map": "/barber-your-time/static/js/main.78a88453.js.map"
   },
   "entrypoints": [
-    "static/css/main.557ddacb.css",
-    "static/js/main.0231b24f.js"
+    "static/css/main.ace6ccd0.css",
+    "static/js/main.78a88453.js"
   ]
 }
