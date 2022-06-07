@@ -39,6 +39,12 @@ const GalleryContainer = () => {
           <div>
             <img onClick={(e) => showImageHandler(e)} src={images[7]}></img>
           </div>
+          <div>
+            <img onClick={(e) => showImageHandler(e)} src={images[8]}></img>
+          </div>
+          <div>
+            <img onClick={(e) => showImageHandler(e)} src={images[9]}></img>
+          </div>
         </div>
       </LightBox>
     </div>

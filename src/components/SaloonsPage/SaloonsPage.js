@@ -12,7 +12,7 @@ const Services = (props) => {
           <SingleSaloon
             href='https://booksy.com/pl-pl/115799_barber-your-time-bialoleka_barber-shop_3_warszawa'
             location="Białołęka"
-            number="570 790 317"
+            number="733 110 240"
             address="ul. Płochocińska 18A, Warszawa"
           />
           <SingleSaloon

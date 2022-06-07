@@ -5,7 +5,7 @@ const HeaderInfo = (props) => {
     <div className={classes["header-info"]}>
       <article>
         <p>#loftowe wnętrze</p>
-        <p>#dobre whisky</p>
+        <p>#poczęstunek, whisky oraz inne napoje</p>
         <p>#najlepsi barberzy</p>
       </article>
     </div>
