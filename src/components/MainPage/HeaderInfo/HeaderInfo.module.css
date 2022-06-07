@@ -1,21 +1,39 @@
 .header-info {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0 auto;
+    background-color: #0000007c;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .header-info article {
-
 }
 
-.header-info p {
+.single-header-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text-info-wrap {
+}
+
+.header-info p{
     font-size: 25px;
     color: #fff;
     letter-spacing: 2px;
+    padding-left: 15px;
+    line-height: 1;
+}
+
+.icon {
+    color : #9b8808;
+    font-size: 45px;
 }
 
 @media(max-width: 900px) {
-    .header-info p {
+    .header-info p, icon {
         font-size: 20px;
     }
   }

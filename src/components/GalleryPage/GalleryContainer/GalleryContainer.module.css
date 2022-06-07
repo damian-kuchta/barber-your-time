@@ -54,12 +54,17 @@
 
 @media(max-width: 600px) {
     .gallery-wrap div {
-        flex-basis: 90%;
-        height: 200px;
-    }
-    .gallery-wrap div {
-        flex-basis: 90%;
+        flex-basis: 47%;
         height: 200px;
     }
 }
 
+@media(max-width: 600px) {
+    .gallery-wrap {
+        padding: 8px 10px;
+    }
+    .gallery-wrap div {
+        flex-basis: 49%;
+        height: 170px;
+    }
+}

@@ -27,7 +27,6 @@ const LightBox = ({ children, src, alt, Wrapper = 'div', zIndex = 100 }) => {
 					zIndex: '99'
 				}}>
 					<img 
-					onClick={toggleIsOpen}
 					src={src}
 						alt={alt}
 						style={{
