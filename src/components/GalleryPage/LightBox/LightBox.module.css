@@ -17,20 +17,38 @@
   max-width: 80vw;
 }
 
-.close-icon {
-  display: block;
+.close-btn-wrap {
+  display: inline-block;
+  background-color: rgb(148, 41, 41);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  top: 0;
   right: 0;
-  bottom: 0;
-transform: translateY(100%);
-  font-size: 60px;
-  color: #96271f;
-  background-position: center;
-  background-size: 50%;
+  transform: translate(50%, -50%) rotate(0);
+  transition: 0.4s;
 }
 
-@media(max-width: 600px) {
-    .close-icon {
-        font-size: 40px;
-    }
+.close-btn-wrap:hover {
+  transform: translate(50%, -50%) rotate(90deg);
+}
+
+.close-btn {
+  display: block;
+  font-size: 44px;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 520px) {
+  .close-btn-wrap {
+    width: 40px;
+    height: 40px;
+  }
+  .close-btn {
+    font-size: 30px;
+  }
 }

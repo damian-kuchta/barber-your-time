@@ -1,17 +1,29 @@
 import React, { useState } from "react";
 import classes from "./LightBox.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRectangleXmark } from "@fortawesome/free-solid-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 const LightBox = ({ children, src, alt, Wrapper = "div", zIndex = 100 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleIsOpen = (e) => {
-    setIsOpen(!isOpen);
-  };
-  const closeModal = (e) => {
     console.log(e.target);
+    if (e.target.localName === "img") {
+      setIsOpen(true);
+    } else {
+      setIsOpen(false);
+    }
+  };
+
+  const openImage = (e) => {
+    if (e.target.localName === "img") {
+      setIsOpen(true);
+    }
+  };
+
+  const closeModal = (e) => {
     setIsOpen(false);
   };
+
   return (
     <Wrapper onClick={toggleIsOpen}>
       {children}
@@ -40,11 +52,12 @@ const LightBox = ({ children, src, alt, Wrapper = "div", zIndex = 100 }) => {
                 display: "block",
               }}
             />
-            <FontAwesomeIcon
-              onClick={closeModal}
-              className={classes["close-icon"]}
-              icon={faRectangleXmark}
-            />
+            <div className={classes["close-btn-wrap"]}>
+              <FontAwesomeIcon
+                className={classes["close-btn"]}
+                icon={faXmark}
+              />
+            </div>
           </div>
         </div>
       ) : null}
