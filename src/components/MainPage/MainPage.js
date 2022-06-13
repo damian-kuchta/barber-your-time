@@ -11,8 +11,6 @@ const MainPage = () => {
   useEffect(() => {
     const bar = document.querySelector("svg");
     bar.addEventListener("click", () => {
-      console.log("dziala");
-
       document.querySelector("._4sag1").classList.add("active");
     });
   }, []);
@@ -47,7 +45,6 @@ const MainPage = () => {
         color: "#fff",
       },
       barStyles: {
-        // maxWidth: '1400px',
         margin: "0 auto",
         background: "#000",
       },

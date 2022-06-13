@@ -13,7 +13,7 @@ const HeaderInfo = (props) => {
         <div className={classes["single-header-info"]}>
           <FontAwesomeIcon className={classes.icon} icon={faCheck} />
           <div className={classes["text-info-wrap"]}>
-            <p>Poczęstunek, whisky</p>
+            <p>Poczęstunek whisky</p>
             <p>oraz inne napoje</p>
           </div>
         </div>
