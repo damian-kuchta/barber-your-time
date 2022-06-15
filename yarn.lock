@@ -2416,7 +2416,7 @@
     "json-schema-traverse" "^0.4.1"
     "uri-js" "^4.2.2"
 
-"ajv@^8.0.0", "ajv@^8.8.0", "ajv@^8.8.2":
+"ajv@^8.0.0":
   "integrity" "sha512-wGgprdCvMalC0BztXvitD2hC04YffAvtsUn93JbGXYLAtCUO4xd17mCCZQxUOItiBwZvJScWo8NIvQMQ71rdpg=="
   "resolved" "https://registry.npmjs.org/ajv/-/ajv-8.11.0.tgz"
   "version" "8.11.0"
@@ -2427,6 +2427,16 @@
     "uri-js" "^4.2.2"
 
 "ajv@^8.6.0", "ajv@>=8":
+  "integrity" "sha512-wGgprdCvMalC0BztXvitD2hC04YffAvtsUn93JbGXYLAtCUO4xd17mCCZQxUOItiBwZvJScWo8NIvQMQ71rdpg=="
+  "resolved" "https://registry.npmjs.org/ajv/-/ajv-8.11.0.tgz"
+  "version" "8.11.0"
+  dependencies:
+    "fast-deep-equal" "^3.1.1"
+    "json-schema-traverse" "^1.0.0"
+    "require-from-string" "^2.0.2"
+    "uri-js" "^4.2.2"
+
+"ajv@^8.8.0", "ajv@^8.8.2":
   "integrity" "sha512-wGgprdCvMalC0BztXvitD2hC04YffAvtsUn93JbGXYLAtCUO4xd17mCCZQxUOItiBwZvJScWo8NIvQMQ71rdpg=="
   "resolved" "https://registry.npmjs.org/ajv/-/ajv-8.11.0.tgz"
   "version" "8.11.0"
@@ -3171,6 +3181,14 @@
   "version" "2.0.18"
   dependencies:
     "mime-db" ">= 1.43.0 < 2"
+
+"compression-webpack-plugin@^10.0.0":
+  "integrity" "sha512-wLXLIBwpul/ALcm7Aj+69X0pYT3BYt6DdPn3qrgBIh9YejV9Bju9ShhlAsjujLyWMo6SAweFIWaUoFmXZNuNrg=="
+  "resolved" "https://registry.npmjs.org/compression-webpack-plugin/-/compression-webpack-plugin-10.0.0.tgz"
+  "version" "10.0.0"
+  dependencies:
+    "schema-utils" "^4.0.0"
+    "serialize-javascript" "^6.0.0"
 
 "compression@^1.7.4":
   "integrity" "sha512-jaSIDzP9pZVS4ZfQ+TzvtiWhdpFhE2RDHz8QJkpX9SIpLq88VueF5jJw6t+6CUQcAoA6t+x89MLrWAqpfDE8iQ=="
