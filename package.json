@@ -1,5 +1,5 @@
 {
-  "homepage": "https://damian-kuchta.github.io/barber-your-time",
+  "homepage": "https://www.barberyourtime.pl",
   "name": "barber-your-time",
   "version": "0.1.0",
   "private": true,
@@ -15,12 +15,7 @@
     "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-image-lightbox": "^5.1.4",
-    "react-images": "^1.2.0-beta.7",
-    "react-photo-gallery": "^8.0.0",
-    "react-responsive-gallery": "^2.1.1",
     "react-scripts": "5.0.1",
-    "responsive-navbar-react": "^1.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
