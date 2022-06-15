@@ -7420,7 +7420,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>=16.x":
+"react@^16.0.0", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>=16.x":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"
@@ -7618,6 +7618,11 @@
   dependencies:
     "is-core-module" "^2.2.0"
     "path-parse" "^1.0.6"
+
+"responsive-navbar-react@^1.2.1":
+  "integrity" "sha512-Z5gIhJeEA1NHIOAnAVMXT/wTRqm3aykoy3aX3r3S6gKcDTGbYEFtFubPgKuzfr3fdylxmiJIHVMEKLwHrXzRiA=="
+  "resolved" "https://registry.npmjs.org/responsive-navbar-react/-/responsive-navbar-react-1.2.1.tgz"
+  "version" "1.2.1"
 
 "retry@^0.13.1":
   "integrity" "sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg=="
