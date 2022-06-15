@@ -13,7 +13,7 @@ const SingleSaloon = (props) => {
       <p className={classes["district-name"]}>{props.location}</p>
       <PriceList
           prices={[
-            ["Poniedziałek - Sobota", "9:00 - 21:00"],
+            ["Poniedziałek - Piątek", "9:00 - 21:00"],
             ["Sobota", "09:00 - 18:00"],
           ]}
           // title="Godziny pracy"
