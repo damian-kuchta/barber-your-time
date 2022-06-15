@@ -16,23 +16,11 @@ const LightBox = ({ children, src, alt, Wrapper = "div", zIndex = 100 }) => {
   }, [isOpen])
 
   const toggleIsOpen = (e) => {
-    console.log(e.target);
     if (e.target.localName === "img") {
-      
       setIsOpen(true);
-
     } else {
       setIsOpen(false);
     }
-  };
-  const openImage = (e) => {
-    if (e.target.localName === "img") {
-      setIsOpen(true);
-    }
-  };
-
-  const closeModal = (e) => {
-    setIsOpen(false);
   };
 
   return (

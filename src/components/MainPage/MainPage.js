@@ -4,14 +4,22 @@ import Header from "./Header/Header";
 import HeaderInfo from "./HeaderInfo/HeaderInfo";
 import BookingPanel from "./BookingPanel/BookingPanel";
 import { Navbar } from "responsive-navbar-react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./index.css";
 
 const MainPage = () => {
+  let closeBtn = null;
+  
   useEffect(() => {
     const bar = document.querySelector("svg");
     bar.addEventListener("click", () => {
+  
       document.querySelector("._4sag1").classList.add("active");
+      document.body.style.overflow = 'hidden';
+      closeBtn = document.querySelector('button');
+      closeBtn.addEventListener('click', ()=> {
+        document.body.style.overflow = 'auto';
+      })
     });
   }, []);
 

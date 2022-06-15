@@ -49,6 +49,7 @@
 
 ._4sag1.active {
   display: flex;
+  width: 300px;
 }
 ._4sag1 button {
   font-size: 25px;
