@@ -3,38 +3,80 @@
   background-image: url("../../assets/prices-bg.jpg");
   background-size: cover;
   border-bottom: 5px solid #9b8808;
+  position: relative;
 }
-
+.dumb-block {
+  position: relative;
+  top: 1px;
+  width: 800px;
+  border: 1px solid #9b8808;
+  margin: 0 auto;
+}
+.dumb-block-bottom {
+  top: -1px;
+}
 .price-list-wrapper {
+  position: relative;
+  top: -1px;
   padding: 15px 40px;
   margin: 0 auto;
   width: 800px;
-  border: 2px solid #9b8808;
+  border: 2px solid #9b87087c;
   background:rgba(0, 0, 0, 0.637);
   margin-bottom: 25px;
 }
+.prices-description {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+.price-controls {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.prices-title {
+  align-self: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #9b8808;
+}
 
 .icon {
-  display: block;
-  margin: 30px auto 0;
-  animation-name: arrowMove;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  cursor: pointer;
+  align-self: center;
+  color: #9b8808;
+  animation: dollarMove ease-in-out 2s infinite reverse;
 }
 
-@keyframes arrowMove {
-  from {transform: translateY(0);}
-  to {transform: translateY(-15px);}
+.active {
+  display: none;
 }
 
+@keyframes dollarMove {
+  0% {transform: translateY(0);}
+  33% {transform: translateY(5px);}
+  66% {transform: translateY(-5px);}
+  100% {transform: translateY(0);}
+}
 @media(max-width: 950px) {
   .price-list-wrapper {
     padding: 10px 20px;
     max-width: 80vw;
     background:rgba(0, 0, 0, 0.637);
     margin-bottom: 30px;
+  }
+
+  .dumb-block {
+    max-width: 80vw;
+  }
+
+  .price-controls {
+    max-width: 80vw;
   }
 }
 
@@ -49,6 +91,19 @@
 .price-list-wrapper {
   margin-top:40px;
 }
+.prices-description {
+  font-size: 26px;
+}
+}
+@media(max-width: 600px) {
+  .prices-description {
+    font-size: 22px;
+  }
+}
+@media(max-width: 600px) {
+  .prices-title {
+    font-size: 34px;
+  }
 }
 
 @media(max-width: 575px) {
@@ -57,10 +112,12 @@
   }
 }
 
-
 @media(max-width: 540px) {
   .price-list-wrapper {
     max-width: 85vw;
+  }
+  .prices-title {
+    font-size: 28px;
   }
 }
 
@@ -68,4 +125,22 @@
   .price-list-wrapper {
     padding: 10px;
   }
+}
+
+@media(max-width: 440px) {
+  .dumb-block {
+    display: none;
+  }
+  .price-controls {
+    flex-direction: column;
+  }
+  .icon {
+    padding: 5px 0;
+  }
+}
+
+.active {
+    background-color: #9B8808;
+    border: 2px solid #202e20;
+
 }

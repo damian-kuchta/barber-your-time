@@ -27,6 +27,7 @@
 
 span:nth-child(2) {
     padding-left: 20px;
+    text-align: right;
 }
 
 @media(max-width: 730px) {
