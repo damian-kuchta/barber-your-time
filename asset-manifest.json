@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/barber-your-time/static/css/main.00c039db.css",
-    "main.js": "/barber-your-time/static/js/main.32f4287f.js",
+    "main.css": "/barber-your-time/static/css/main.dd34494b.css",
+    "main.js": "/barber-your-time/static/js/main.6e9afe74.js",
     "static/media/main-page-bg.jpg": "/barber-your-time/static/media/main-page-bg.706b5be639c14c5fcdd2.jpg",
     "static/media/maps-bg.jpg": "/barber-your-time/static/media/maps-bg.4540b6a0ba79ea0c7968.jpg",
     "static/media/9.jpg": "/barber-your-time/static/media/9.ca195dc5fe40edc521e7.jpg",
@@ -26,11 +26,11 @@
     "static/media/instagram.svg": "/barber-your-time/static/media/instagram.8ea5b1a57f8f7b7201212125eb993b7f.svg",
     "index.html": "/barber-your-time/index.html",
     "static/media/facebook.svg": "/barber-your-time/static/media/facebook.b09f847384e9c9d8ad4662c6e78b00da.svg",
-    "main.00c039db.css.map": "/barber-your-time/static/css/main.00c039db.css.map",
-    "main.32f4287f.js.map": "/barber-your-time/static/js/main.32f4287f.js.map"
+    "main.dd34494b.css.map": "/barber-your-time/static/css/main.dd34494b.css.map",
+    "main.6e9afe74.js.map": "/barber-your-time/static/js/main.6e9afe74.js.map"
   },
   "entrypoints": [
-    "static/css/main.00c039db.css",
-    "static/js/main.32f4287f.js"
+    "static/css/main.dd34494b.css",
+    "static/js/main.6e9afe74.js"
   ]
 }
